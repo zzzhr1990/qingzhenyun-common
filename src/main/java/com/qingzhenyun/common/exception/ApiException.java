@@ -1,4 +1,4 @@
-package com.qingzhenyun.common;
+package com.qingzhenyun.common.exception;
 
 import com.qingzhenyun.common.entity.ApiResults;
 
