@@ -5,7 +5,7 @@
 
 	<groupId>com.qingzhenyun.common</groupId>
 	<artifactId>qingzhenyun-common</artifactId>
-	<version>0.1.1</version>
+	<version>0.1.2</version>
 	<packaging>jar</packaging>
 
 	<name>qingzhenyun-common</name>
@@ -64,6 +64,14 @@
 			<scope>test</scope>
 		</dependency>
 		-->
+
+		<!-- https://mvnrepository.com/artifact/com.squareup.okhttp3/okhttp -->
+		<dependency>
+			<groupId>com.squareup.okhttp3</groupId>
+			<artifactId>okhttp</artifactId>
+			<version>3.8.0</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
