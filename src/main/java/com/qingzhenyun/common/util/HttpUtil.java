@@ -17,7 +17,7 @@ public class HttpUtil {
     //
     private static final OkHttpClient client = new OkHttpClient();
 
-    public InputStream getRemoteByte(String url) throws IOException {
+    public static InputStream getRemoteByte(String url) throws IOException {
         Request request = new Request.Builder()
                 .url(url)
                 .build();
@@ -32,7 +32,7 @@ public class HttpUtil {
         return body.byteStream();
     }
 
-    public InputStream getRemoteByte(String url, Integer tryTime) throws IOException {
+    public static InputStream getRemoteByte(String url, Integer tryTime) throws IOException {
         if (tryTime < 0) {
             throw new IOException("Request url " + url + "failed.");
         }
